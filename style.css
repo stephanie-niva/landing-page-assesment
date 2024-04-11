@@ -1,0 +1,142 @@
+#body{
+    background-color: rgb(151, 106, 194);
+    height: 1000px;
+    width: 1600px;
+    padding-top: 150px;
+    padding-left: 160px;
+}
+.in-body{
+    background-color: rgb(240, 183, 213);
+    height: 700px;
+    width: 1300px;
+    border: solid;
+    border-color: black;
+    border-radius: 30px;
+    padding-top: 100px;
+    
+    
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-right{
+    display: flex;
+    gap: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+.navbar-left{
+    display: flex;
+    gap: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+.study-time{
+    display: flex;
+    justify-content: space-around;
+}
+.study-time-words{
+  text-align: center;  
+  padding-top: 40px;
+  font-size: xx-large;
+}
+.words{
+    font-size: xx-large;
+}
+.amount{
+    background-color: azure;
+    height: 180px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+}
+.search{
+    background-color: azure;
+    padding: 15px;
+    color: bisque;
+    border-radius: 20px;
+    border-color: black;
+}
+.sign-up{
+    background-color: black;
+    color: azure;
+    border-radius: 25px;
+    padding: 15px;
+}
+@media only screen and(min-width:280px)and (max-width:1024px){
+    #body{
+        background-color: rgb(151, 106, 194);
+        height: 1000px;
+        width: 1200px;
+        padding-top: 50px;
+        padding-left: 100px;
+        flex-wrap: nowrap;
+    }
+    .in-body{
+        background-color: rgb(240, 183, 213);
+        height: 700px;
+        width: 900px;
+        border: solid;
+        border-color: black;
+        border-radius: 30px;
+        padding-top: 100px;
+        
+        
+        
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar-right{
+        display: flex;
+        gap: 50px;
+        padding-bottom: 30px;
+        text-align: center;
+        
+    }
+    .navbar-left{
+        display: flex;
+        gap: 50px;
+        padding-bottom: 30px;
+        text-align: center;
+        
+    }
+    .study-time{
+        display: flex;
+        justify-content: space-around;
+    }
+    .study-time-words{
+      text-align: center;  
+      padding-top: 40px;
+      
+    }
+    .words{
+        font-size: xx-large;
+    }
+    .amount{
+        background-color: azure;
+        height: 180px;
+        width: 900px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .search{
+        background-color: azure;
+        padding: 15px;
+        color: bisque;
+        border-radius: 20px;
+        border-color: black;
+    }
+    .sign-up{
+        background-color: black;
+        color: azure;
+        border-radius: 25px;
+        padding: 15px;
+    
+}
+}
