@@ -40,9 +40,9 @@
     justify-content: space-around;
 }
 .study-time-words{
-  text-align: center;  
+   
   padding-top: 40px;
-  font-size: xx-large;
+  
 }
 .words{
     font-size: xx-large;
@@ -67,23 +67,24 @@
     border-radius: 25px;
     padding: 15px;
 }
-@media only screen and(min-width:280px)and (max-width:1024px){
+@media all and(min-width:310px) and (max-width:1080px){
     #body{
         background-color: rgb(151, 106, 194);
         height: 1000px;
-        width: 1200px;
-        padding-top: 50px;
-        padding-left: 100px;
-        flex-wrap: nowrap;
+        width: 600px;
+        padding-top: 5px;
+        padding-left: px;
+        flex-wrap: wrap;
     }
     .in-body{
         background-color: rgb(240, 183, 213);
         height: 700px;
-        width: 900px;
+        width: 400px;
         border: solid;
         border-color: black;
         border-radius: 30px;
         padding-top: 100px;
+        flex-wrap: wrap;
         
         
         
@@ -91,6 +92,7 @@
     .navbar{
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
     .navbar-right{
         display: flex;
@@ -101,7 +103,7 @@
     }
     .navbar-left{
         display: flex;
-        gap: 50px;
+        gap: 10px;
         padding-bottom: 30px;
         text-align: center;
         
@@ -109,6 +111,7 @@
     .study-time{
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
     .study-time-words{
       text-align: center;  
@@ -116,18 +119,19 @@
       
     }
     .words{
-        font-size: xx-large;
+        /*font-size: xx-large;*/
     }
     .amount{
         background-color: azure;
         height: 180px;
-        width: 900px;
+        /*width: 400px;*/
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
     .search{
         background-color: azure;
-        padding: 15px;
+        padding: 5px;
         color: bisque;
         border-radius: 20px;
         border-color: black;
@@ -136,7 +140,7 @@
         background-color: black;
         color: azure;
         border-radius: 25px;
-        padding: 15px;
+        padding: 5px;
     
-}
+    }
 }
