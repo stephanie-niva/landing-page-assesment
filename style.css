@@ -1,15 +1,9 @@
 #container{
     background-color: rgb(240, 185, 214);
-   
-    
-    height: 800px;
+    height: 810px;
     width: 1650px;
-    
     border-radius: 30px;
-    
-    padding: 50px;
-    
-
+    padding: 80px;
 }
 
 .navbar{
@@ -78,10 +72,10 @@
      #container{
         background-color: rgb(240, 185, 214);
         height: 720px;
-        width: 380px; 
+        width: 355px; 
         display: wrap;
         flex-direction: column;
-        padding: 7px; 
+        padding: 5px; 
           
      } 
     
@@ -116,12 +110,12 @@
     .footer{
         background-color: azure;
         height: 120px;
-        width: 360px;
+        width: 345px;
         display: wrap;
         flex-direction: row;
         justify-content: space-around;
          margin-top: 100px; 
-        margin-left: 10px;
+        margin-left: 6px;
     }
     .search1{
         background-color: azure;
